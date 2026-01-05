@@ -28,16 +28,16 @@
 - HTML, CSS, JavaScript  
 - react-webcam  
 
-### AI / CV / Library
+### API,Library
 - OpenAI API  
 - MediaPipe Pose  
-- OpenCV  
+- OpenCV
+- Google Cloud Platform TTS API
 
 ### Database
 - MySQL  
 
-### Cloud / 기타
-- Google Cloud Platform TTS API
+
 
 ---
 
@@ -54,11 +54,12 @@
 - 🤖 **운동 루틴 생성 챗봇**
   - OpenAI 기반 대화형 루틴 생성
   - 사용자 니즈 파악 및 응답 제어
+  - Google Cloud Platform TTS API
+  - 자연어 → JSON 파싱 자동화
 
 - 🗂 **운동 루틴 관리**
-  - 루틴 자동 등록
   - 루틴 등록/수정 기능
-  - 자연어 → JSON 파싱 자동화
+  
 
 ---
 
@@ -115,10 +116,15 @@
 
 - Frontend (React, react-webcam)  
 - Backend (Spring Boot, Flask)  
-- AI Engine (OpenAI + MediaPipe + OpenCV)  
+- AI Engine (OpenAI + MediaPipe)  
 - DB (MySQL)  
-
+- 
 ---
+
+## ERD
+
+<img width="920" height="702" alt="image" src="https://github.com/user-attachments/assets/00752d1f-60f6-4d31-979f-956815bd229b" />
+
 
 ## ⚙ 실행 방법 (예시)
 
@@ -127,7 +133,7 @@ git clone https://github.com/your-id/ironman.git
 cd ironman
 ```
 
-> 구체 실행 방법은 환경 구성 시 추가 예정
+> 구체 실행 방법
 
 ---
 
@@ -140,5 +146,4 @@ cd ironman
 ---
 
 ## 📎 관련 링크
-- GitHub Repo: (추가 예정)
-- 시연 영상/배포 링크: (있다면 입력)
+- 시연 영상: (있다면 입력)
