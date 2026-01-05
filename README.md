@@ -112,7 +112,8 @@
 ---
 
 ## 🧭 시스템 구성도 (예시)
-> 추후 이미지 추가 가능
+<img width="734" height="412" alt="image" src="https://github.com/user-attachments/assets/e7fee059-e8f2-44e8-92bc-92a63ac041f4" />
+
 
 - Frontend (React, react-webcam)  
 - Backend (Spring Boot, Flask)  
