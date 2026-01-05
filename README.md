@@ -130,9 +130,12 @@
 ## ⚙ 실행 방법 (예시)
 
 ```bash
-git clone https://github.com/your-id/ironman.git
-cd ironman
+git clone https://github.com/space-yellow-duck/Ironman.git
 ```
+```bash
+
+```
+
 
 > 구체 실행 방법
 
