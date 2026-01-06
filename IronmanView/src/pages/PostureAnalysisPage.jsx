@@ -554,7 +554,7 @@ useEffect(() => {
       <div className="video-container">
      
         <div className="video-wrapper">
-          <TrainingCam
+          <TrainingCamTest
             isStarted={isStarted}
             viewKnee={viewKnee}
             viewLegHip={viewLegHip}
