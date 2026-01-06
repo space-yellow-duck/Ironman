@@ -149,5 +149,6 @@ git clone https://github.com/space-yellow-duck/Ironman.git
 
 ---
 
-## 📎 관련 링크
-- 시연 영상: (있다면 입력)
+## 시연
+- ![시연영상](https://github.com/user-attachments/assets/5bbcbca7-d32a-4251-9b95-9e19f2b76668)
+
