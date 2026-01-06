@@ -24,14 +24,10 @@ pose = mp_pose.Pose()
 
 
 app = Flask(__name__)
-# socket_io = SocketIO(app,cors_allowed_origins="http://192.168.219.89:5173")
 socket_io = SocketIO(app,cors_allowed_origins="http://localhost:5173")
 
      
 
-# @app._got_first_request
-# def start_socket():
-#     threading.Thread(target=init_socket_connection).start()
 
 @socket_io.on('connect')
 def handle_connect():
@@ -58,7 +54,6 @@ def analyze(data):
     
     key = (sid, exercise_name)
     
-    # 분석기 인스턴스가 없으면 새로 생성
     if key not in analyzer_map:
         analyzer_map[key] = analyzer_class_map[exercise_name]()
     analyzer = analyzer_map[key]
@@ -69,7 +64,6 @@ def analyze(data):
         socket_io.emit("report", ["badPose", {"img":frame,"exercise":exercise_name}])
     elif result["best_pose"]:
         socket_io.emit("report", ["bestPose", {"img":frame,"exercise":exercise_name}])
-    # print(analyzer_map)
     socket_io.emit("show", {"sendImg": frame,"good_cnt":result["good_cnt"],"bad_cnt":result["bad_cnt"]})
 
 if __name__ == '__main__':
